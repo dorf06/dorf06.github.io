@@ -3,6 +3,9 @@
     {
         header ( 'http://api-public.guidebox.com/v1.43/us/4g6MVVniY6wpIzlrAtv8uT4IKekIkg/search/title/' + $_GET['searchTerm']);
     }
+
+    else
+    {
 ?>
 
 <!DOCTYPE html>
@@ -46,3 +49,7 @@
 
 </body>
 </html>
+
+<?php
+    }
+?>
